@@ -1,1 +1,9 @@
-Hello World
+<script>
+var language = window.navigator.userLanguage || window.navigator.language;
+if (language.startsWith("zh")) {
+  window.location = "http://slowcast.fm/zh/";
+} else {
+  alert("here")
+  window.location = "http://slowcast.fm/en/";
+}
+</script>

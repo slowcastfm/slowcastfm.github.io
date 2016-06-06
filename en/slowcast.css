@@ -1,0 +1,267 @@
+/*
+ *  * Globals
+ *   */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #333;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ *  * Base structure
+ *   */
+
+html,
+body {
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  color: #333;
+  text-align: center;
+  /* text-shadow: 0 1px 3px rgba(0,0,0,.5); */
+}
+
+.play-image {
+  margin-bottom: 50px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+.appicon{
+ margin-right:20px;
+
+}
+
+.screenshot {
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: block;
+  position: absolute;
+  clear:both;
+  width:100%;
+  height:400px;
+  margin-top: 140px;
+  margin-left:auto;
+  margin-right: :auto;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 0;
+}
+
+.divinfooter{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+.downloadinfooter{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.footericon{
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+
+  min-height: 100%;
+  z-index: -10;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  z-index:-4;
+
+}
+
+.gradientbackgroundl{
+  position: absolute;
+  width:100%;
+  height: 1200px;
+  vertical-align: top;
+  top:800px; 
+  bottom:400px;
+  z-index:-2;
+  background: blue;
+  /*-ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: skewY(10deg); 
+  /*-moz-transform: skew(20deg); */
+  -o-transform: skew(10deg);
+  transform: skewY(10deg);
+   background: -webkit-linear-gradient(to top, 
+      rgba(125, 120, 234, .88),
+      rgba(125, 120, 234, .88) 32%,
+      rgba(246, 106, 140, .88) ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to top, 
+      rgba(125, 120, 234, .88),
+      rgba(125, 120, 234, .88) 32%,
+      rgba(246, 106, 140, .88) ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to top, 
+      rgba(125, 120, 234, .88),
+      rgba(125, 120, 234, .88) 32%,
+      rgba(246, 106, 140, .88) );/* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top, 
+      rgba(125, 120, 234, .88),
+      rgba(125, 120, 234, .88) 32%,
+      rgba(246, 106, 140, .88) );
+}
+.gradientbackgroundr{
+  position: absolute;
+  width:100%;
+  height: 1200px;
+  vertical-align: top;
+  top:800px; 
+  bottom:400px;
+
+  z-index:-3;
+  background: blue;
+  /*-ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: skewY(-10deg); 
+  /*-moz-transform: skew(20deg); */
+  -o-transform: skew(-10deg);
+  transform: skewY(-10deg);
+  background: -webkit-linear-gradient(to top, 
+      rgba(125, 120, 234, .88),
+      rgba(125, 120, 234, .88) 32%,
+      rgba(246, 106, 140, .88) ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to top, 
+      rgba(125, 120, 234, .88),
+      rgba(125, 120, 234, .88) 32%,
+      rgba(246, 106, 140, .88) ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to top, 
+      rgba(125, 120, 234, .88),
+      rgba(125, 120, 234, .88) 32%,
+      rgba(246, 106, 140, .88) );/* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top, 
+      rgba(125, 120, 234, .88),
+      rgba(125, 120, 234, .88) 32%,
+      rgba(246, 106, 140, .88) );
+}
+
+.cover-container {
+  z-index:101;
+  
+  margin-right: auto;
+  margin-left: auto;
+}
+.division{
+  display:block;
+  width:100%;
+  min-height:20px;
+}
+
+.subtext{
+  font-family: "Lantinghei TC";
+  font-size:18px;
+
+}
+
+.lead{
+  font-family: "Lantinghei TC";
+  font-size:24px;
+  margin-bottom: 6px;
+}
+
+.circledot{
+  width:10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom:30px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textonwhite{
+    color:#525F7A;
+
+}
+.textongradience{
+    color:#fff;
+    font-weight: 100;
+}
+.boxshadow{
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, .1), 0px 3px 12px rgba(65, 71, 85, .1);
+}
+
+.boxshadow:hover{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 4px 20px rgba(65, 71, 85, .3);
+}
+/* Padding for spacing */
+/* .inner { */
+/*   padding: 30px; */
+/* } */
+
+/*
+ *  * Affix and center
+ *   */
+
+.crossline{
+  position: absolute;
+  background: -webkit-linear-gradient(left, rgba(125, 120, 234, 1),
+      rgba(125, 120, 234, 1) 32%,
+      rgba(246, 106, 140, 1) ); 
+  background: -o-linear-gradient(right, rgba(125, 120, 234, 1),
+      rgba(125, 120, 234, 1) 32%,
+      rgba(246, 106, 140, 1) ); 
+  background: -moz-linear-gradient(right, rgba(125, 120, 234, 1),
+      rgba(125, 120, 234, 1) 32%,
+      rgba(246, 106, 140, 1) ); 
+  height:3px;
+  top:14px;
+  width:78%;
+  vertical-align:center;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.crosslinebox{
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width: 375px) {
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: top;
+  }
+  /* Handle the widths */
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 375px) {
+  .cover-container {
+    width: 375px;
+  }
+}
+
